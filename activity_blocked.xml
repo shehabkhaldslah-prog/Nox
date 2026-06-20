@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A0000"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚫"
+        android:textSize="80sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="محتوى محجوب"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FF5252"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هذا التطبيق محجوب بواسطة NoX\nسيتم إغلاقه تلقائياً..."
+        android:textSize="16sp"
+        android:textColor="#FFAAAA"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp" />
+
+</LinearLayout>

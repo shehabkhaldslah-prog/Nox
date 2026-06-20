@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0A1A"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Logo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🛡️"
+        android:textSize="70sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NoX"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#4FC3F7" />
+
+    <!-- Main Status -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✅ الحماية نشطة"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#66BB6A"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Status Cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111827"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tv_admin_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅ منع الحذف: مفعّل"
+            android:textSize="16sp"
+            android:textColor="#CCDDEE"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tv_vpn_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅ حجب المواقع: مفعّل"
+            android:textSize="16sp"
+            android:textColor="#CCDDEE" />
+    </LinearLayout>
+
+    <!-- Info Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D1F12"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الحماية تعمل في الخلفية دائماً.\nالمواقع الإباحية محجوبة.\nالتطبيقات الضارة مراقبة."
+            android:textSize="14sp"
+            android:textColor="#88AA88"
+            android:lineSpacingExtra="6dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

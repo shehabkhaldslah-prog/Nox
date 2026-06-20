@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoX - حماية ذكية</string>
+    <string name="protection_active">الحماية نشطة</string>
+    <string name="protection_inactive">الحماية غير مكتملة</string>
+    <string name="admin_active">منع الحذف: مفعّل</string>
+    <string name="vpn_active">حجب المواقع: مفعّل</string>
+</resources>
